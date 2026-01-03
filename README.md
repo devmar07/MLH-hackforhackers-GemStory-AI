@@ -1,1 +1,1 @@
-# MHL-hackforhackers-GemStory-AI
+# MLH-hackforhackers-GemStory-AI
