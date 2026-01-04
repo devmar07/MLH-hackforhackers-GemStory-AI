@@ -41,26 +41,26 @@ In the future, we would like to:
 GemStory AI has the potential to grow into a powerful creative assistant for storytellers and developers alike.
 
 ---
-## 🚀 Getting Started
-1. Clone the repository:
+## 🎈 Getting Started
+ - Clone the repository:
     ```bash
     git clone https://github.com/devmar07/MLH-hackforhackers-GemStory-AI.git
     ```
 
-1. Get a Gemini API Key:
+- Get a Gemini API Key:
     https://aistudio.google.com/app/apikey
 
-1. Paste Key into .env file:
+- Paste Key into .env file:
     open the .env file and paste the key after 
     ```bash
-    GEMINI_API_KEY=
+    GEMINI_API_KEY= your_api_key
     ```
 
-2. Install dependencies:
+- Install dependencies:
     ```bash
     pip install -r requirements.txt
     ```
-3. Run the application:
+- Run the application:
     ```bash
     python api.py
     ```
