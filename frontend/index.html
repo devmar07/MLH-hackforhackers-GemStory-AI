@@ -1,0 +1,68 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GemStory💎 AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="logo">💎</div>
+      <h1>GemStory💎 AI</h1>
+      <p>Where your ideas become stories</p>
+    </div>
+
+    <div class="card">
+      <div class="inputs">
+        <div class="input-group">
+          <label for="">Genre</label>
+          <select id="genre">
+            <option value="Fantasy">Fantasy</option>
+            <option value="Sci-Fi">Sci-Fi</option>
+            <option value="Horror">Horror</option>
+            <option value="Adventure">Adventure</option>
+            <option value="Romance">Romance</option>
+            <option value="Comedy">Comedy</option>
+          </select>
+        </div>
+
+
+
+        <div class="input-group">
+          <label for="">Main character</label>
+          <input id="character" type="text" placeholder=" e.g. Fiona">
+        </div>
+
+        <div class="input-group">
+          <label for="">Story Purpose</label>
+          <select id="purpose">
+            <option value="Game Lore">Game Lore</option>
+            <option value="Short Story">Short Story</option>
+            <option value="World Building">World Building</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="buttons">
+        <button class="secondary" onclick="continueStory()">Continue Story</button>
+        <button class="primary" onclick="createStory()">Create Story</button>
+      </div>
+    </div>
+
+    <div class="output">
+      <div class="terminal-header">GemStory💎_output.md</div>
+      <pre id="output">// Generated output will appear here...</pre>
+    </div>
+
+    <footer>
+      GemStory💎 AI - MLH Hacks for hackers
+    </footer>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
